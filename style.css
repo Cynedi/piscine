@@ -9,6 +9,7 @@ body {
   padding: 0;
   font-family: 'Bungee Hairline', cursive;
 }
+/*menu*/
 #navigation {
   position: absolute;
   right: 10px;
@@ -25,6 +26,8 @@ body {
   background-color: rgb(40, 185, 210);
   padding: 30px;
 }
+#navigation li a:hover{background-color: rgb(39, 228, 205);}
+/*titre et logo du header*/
 h1 {
   color: rgb(40, 185, 210);
   font-size: 50px;
@@ -72,7 +75,6 @@ img:nth-child(4){
   width: 300px;
   height: 212px;
 }
-
 main img{
   border: 2px solid white;
 }
@@ -98,6 +100,7 @@ color:white;}
 #faq{margin-left: 350px;
 }
 footer p:nth-child(1){padding-top: 25px;}
+
 /*tableaux tarif*/
 table {
   border: 2px solid white;
@@ -119,6 +122,96 @@ caption {
   width: 100%;
   text-align: center;
   }
-#produits {background-color:rgb(40, 185, 210); }
-#jacuzzi {width: 88%;
-margin-bottom: 100px;}
+#produits {
+  background-color:rgb(39, 228, 205);
+}
+#jacuzzi {
+  width: 88%;
+  margin-bottom: 100px;
+}
+/*formulaire de contact*/
+#nom {
+  display: block;
+}
+#prenom {
+  display: block;
+}
+#email {
+  display: block;
+}
+#telephone {
+  display: block;
+}
+#typedepiscine {
+  display: block;
+}
+#message{
+  display: block;
+}
+label {
+  font-size: 20px;
+  margin-top: 10%;
+  display: block;}
+form {
+  background-color: white;
+  width: 25%;
+  padding: 10px 0 10px 70px;
+  margin-left: 450px;
+  box-shadow: 4px 4px 2px grey;
+  display: inline-block;
+  color: rgb(40, 185, 210);
+  font-weight: bold;
+  font-size: 30px;
+}
+#envoyer {
+  margin-top: 30px;
+  margin-left: 70px;
+}
+#titre {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+/*maap et coordonée*/
+#ounoustrouver{
+  display:block;
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+#maap {
+  width: 46%;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 80px;}
+#coordonee {
+  width: 51%;
+  display: inline-block;
+  vertical-align: top;
+  background-color:rgb(40, 185, 210);
+  padding:0px 30px 113px 0px;
+}
+iframe {
+  width: 300px;
+}
+address {
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+#maap h2 {
+  color: rgb(40, 185, 210);
+}
+/*icon tel*/
+#coordonee img {
+  width: 33px;
+  height: 33px;
+  display: inline;}
+#coordonee p {
+  display: inline;
+  width: 200px;
+}
+#telephone {
+  text-align: center;
+  margin-top: 30px;
+}
