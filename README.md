@@ -5,7 +5,7 @@ Réalisation d'un site de piscine avec:
 * Une page avec des tableaux qui présente les tarifs
 * Une page contact avec un formulaire de contact et une map
 
-##Objectifs:
+## Objectifs:
 * Maitriser la propriété positionement
 * Intégrer des tableaux html
 * Intégrer un formulaire de contact et une map
