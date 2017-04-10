@@ -1,5 +1,4 @@
 /*conception du header*/
-*{border:1px solid black;}
 header {
   background-color: white;
 }
@@ -35,7 +34,7 @@ h1 {
 header img{
   margin:20px 0px 0px 80px;
 }
-/*conception des fiches produits*/
+/*fiches produits*/
 #img2{
   width: 300px;
   height: auto;
@@ -189,7 +188,7 @@ form {
   display: inline-block;
   vertical-align: top;
   background-color:rgb(40, 185, 210);
-  padding:0px 30px 113px 0px;
+  padding:0px 30px 115px 0px;
 }
 iframe {
   width: 300px;
@@ -214,4 +213,166 @@ address {
 #telephone {
   text-align: center;
   margin-top: 30px;
+}
+/* responsive for iphone*/
+@media  (max-width:700px) {
+
+  body{width: 100%;
+  height: 100%;}
+  /*menu*/
+/*{border: 1px solid black;}*/
+  #navigation {
+    display: inline;
+    margin: 80px 15px 0 0;
+    width: 87%;
+  }
+  #navigation li a {
+    padding: 2px;
+    font-size: 13px;
+  }
+  /*titre et logo du header*/
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  header img{
+    margin:20px 0px 0px 120px;
+  }
+  header {width: 100%;
+  height: auto;}
+  /*conception des fiches produits*/
+  #img2{
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+    margin-left: 80px;
+  }
+  img:nth-child(3){
+    width: 200px;
+    height: 170px;
+  }
+  img:nth-child(4){
+    width: 200px;
+    height: 170px;;
+  }
+  #interieure img:nth-child(1){
+    width: 200px;
+    height: 170px;
+    margin-left: 0px;
+    margin-left: 80px;
+  }
+  #interieure img:nth-child(2){
+    width: 200px;
+    height: 170px;
+  }
+  #interieure img:nth-child(3){
+    width: 200px;
+    height: 170px;
+  }
+  #spa img:nth-child(1){
+    width: 200px;
+    height: 170px;
+    margin-left: 0px;
+    margin-left: 80px;
+  }
+  #spa img:nth-child(2){
+    width: 200px;
+    height: 170px;
+  }
+  #spa img:nth-child(3){
+    width: 200px;
+    height: 170px;
+  }
+  main img{
+    display: block;
+    margin-left: 80px;
+  }
+  h2{
+    font-size: 20px;
+    margin:40px 0 40px 0;
+  }
+  /*footer*/
+  footer {
+    margin-top: 30px;
+    padding: 0px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  footer p{
+    font-size: 10px;
+   }
+  footer a{
+    margin-left: 20px;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+  }
+  #faq{
+  margin-left: 0px;
+  }
+  footer p:nth-child(1){
+    padding-top: 5px;
+  }
+  /*tableaux tarif*/
+  table {
+    border: 1px solid white;
+    margin: 0px 20px 0px 20px;
+    font-size: 10px;
+  }
+  th {
+    border: 1px solid white;
+    padding: 1px;}
+  td {
+    border: 1px solid white;
+    padding: 1px;
+  }
+  caption {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+    /*formulaire de contact*/
+    label {
+      font-size: 10px;
+      margin-top: 2%;
+      }
+    form {
+      width: 55%;
+      padding: 20px 0 0px 30px;
+      margin: 40px 0 8px 70px;
+      box-shadow: 1px 1px 1px grey;
+    }
+    #envoyer {
+      margin-top: 10px;
+      margin-left: 50px;
+    }
+    #titre {
+      font-size: 12px;
+    }
+    /*map et coordonnée*/
+    #ounoustrouver{
+      background-color: white;
+    }
+    #maap {
+      width: 100%;
+      display: block;
+      padding-bottom: 10px;
+      }
+    #coordonee {
+      width: 100%;
+      display: block;
+      padding-bottom: 10px;
+      }
+      #ounoustrouver h2 {
+        font-size: 15px;
+        padding-top: 20px;
+      }
+      address{
+        font-size: 15px;
+      }
+  }
+
+
+
 }
