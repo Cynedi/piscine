@@ -217,8 +217,10 @@ address {
 /* responsive for iphone*/
 @media  (max-width:700px) {
 
-  body{width: 100%;
-  height: 100%;}
+  body{
+  width: 100%;
+  height: 100%;
+}
   /*menu*/
 /*{border: 1px solid black;}*/
   #navigation {
@@ -238,8 +240,10 @@ address {
   header img{
     margin:20px 0px 0px 120px;
   }
-  header {width: 100%;
-  height: auto;}
+  header {
+    width: 100%;
+    height: auto;
+  }
   /*conception des fiches produits*/
   #img2{
     width: 200px;
@@ -360,7 +364,7 @@ address {
       padding-bottom: 10px;
       }
     #coordonee {
-      width: 100%;
+      width: 92%;
       display: block;
       padding-bottom: 10px;
       }
@@ -373,6 +377,138 @@ address {
       }
   }
 
+/*responsive tablette*/
+  @media only screen and (min-width:768px) and (max-width:999px){
 
+      body{
+        width: 100%;
+        height: 100%;
+    }
+      /*menu*/
+    /*{border: 1px solid black;}*/
+      #navigation {
+        display: inline;
+        margin: 150px 30px 0 0;
+        width: 87%;
+      }
+      #navigation li a {
+        padding: 10px;
+        font-size: 25px;
+      }
+      /*titre et logo du header*/
+      h1 {
+        font-size: 40px;
+        text-align: center;
+      }
+      header img{
+        margin:20px 0px 0px 300px;
+      }
+      header {
+      width: 100%;
+      height: 40%;
+    }
+      /*conception des fiches produits*/
+      #img2{
+        width: 200px;
+        height: 170px;
+        margin-left: 65px;
+      }
+      img:nth-child(3){
+        width: 200px;
+        height: 170px;
+      }
+      img:nth-child(4){
+        width: 200px;
+        height: 170px;;
+      }
+      #interieure img:nth-child(1){
+        width: 200px;
+        height: 170px;
+        margin-left: 65px;
+      }
+      #interieure img:nth-child(2){
+        width: 200px;
+        height: 170px;
+      }
+      #interieure img:nth-child(3){
+        width: 200px;
+        height: 170px;
+      }
+      #spa img:nth-child(1){
+        width: 200px;
+        height: 170px;
+        margin-left: 65px;
+      }
+      #spa img:nth-child(2){
+        width: 200px;
+        height: 170px;
+      }
+      #spa img:nth-child(3){
+        width: 200px;
+        height: 170px;
+      }
+      main img{
+        display: inline-block;
+        margin-left: 10px;
+      }
+      h2{
+        font-size: 27px;
+        margin:80px 0 40px 0;
+      }
+      /*footer*/
+      footer {
+        margin-top: 30px;
+        padding: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+      }
+      footer p{
+        font-size: 20px;
+       }
+      footer a{
+        margin-left: 20px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+      }
+      #faq{
+      margin-left: 0px;
+      }
+      footer p:nth-child(1){
+        padding-top: 5px;
+      }
+      /*tableaux tarif*/
+      table {
+        margin: 10px;
+      }
+      caption {
+        font-size: 35px;
+        margin: 80px 0px 0px 0px;
+        }
+      #jacuzzi {
+        width: 98%;
+      }
+        /*formulaire de contact*/
+        form {
+          width: 35%;
+          margin:60px 0 0 210px;
+        }
+        /*map et coordonnée*/
+          #ounoustrouver h2 {
+            font-size: 25px;
+            padding-top: 20px;
+          }
+          address{
+            font-size: 25px;
+          }
+          #telephone p {
+            font-size: 25px;
+          }
+          #coordonee {
+            width: 96%;
+
+          }
+          #maap {width: 100%;
+          }
 
 }
