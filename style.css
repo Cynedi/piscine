@@ -488,27 +488,26 @@ address {
       #jacuzzi {
         width: 98%;
       }
-        /*formulaire de contact*/
-        form {
-          width: 35%;
-          margin:60px 0 0 210px;
-        }
-        /*map et coordonnée*/
-          #ounoustrouver h2 {
-            font-size: 25px;
-            padding-top: 20px;
+  /*formulaire de contact*/
+      form {
+        width: 35%;
+        margin:60px 0 0 210px;
+      }
+    /*map et coordonnée*/
+      #ounoustrouver h2 {
+        font-size: 25px;
+        padding-top: 20px;
+      }
+      address{
+        font-size: 25px;
+      }
+      #telephone p {
+        font-size: 25px;
+      }
+      #coordonee {
+        width: 96%;
+      }
+      #maap {
+        width: 100%;
           }
-          address{
-            font-size: 25px;
-          }
-          #telephone p {
-            font-size: 25px;
-          }
-          #coordonee {
-            width: 96%;
-
-          }
-          #maap {width: 100%;
-          }
-
 }
